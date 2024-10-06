@@ -1,0 +1,110 @@
+body {
+    font-family: cursive;
+ /* got background color from online resources*/
+ background: #AAFFA9;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #11FFBD, #AAFFA9);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #11FFBD, #AAFFA9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
+
+body h1{
+    text-align: center;
+    margin-top: 3px;
+    color:darkblue;
+}
+
+.question {
+    margin-bottom: 10px;
+    padding: 30px;
+    margin: 10px;
+    width: 380px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgoldenrodyellow;
+    border: 3px solid lightcoral;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.question:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+    border: 2px solid black;
+}
+
+.question-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+
+.question label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.question input[type="radio"] {
+    margin-right: 10px;
+}
+
+#results {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    color: darkblue;
+    border: 2px solid black;
+   width: 310px;
+   font-size: larger;
+   margin-left: 590px;
+
+}
+#submit {
+    background-color: white;
+    color: green;
+    font-size: medium;
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 43%;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: green;
+    border: 2px solid white;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+
+#reset{
+    background-color: white;
+    color: red;
+    font-size: medium;
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: red;
+    color: white;
+    border: 2px white solid;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+}
+
+.correct {
+    color: #2ecc71;
+}
+
+.incorrect {
+    color: rgb(0, 100, 25);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+    border: 2px solid black
+}
