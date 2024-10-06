@@ -23,3 +23,6 @@ Build an interactive quiz application where users can answer multiple-choice que
 **Avanced css**
 
 **Javascript**
+
+
+![image_2024-10-06_195501302](https://github.com/user-attachments/assets/9554962c-abfa-496e-9cce-af87ace5834d)
